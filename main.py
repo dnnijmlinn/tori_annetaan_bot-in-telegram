@@ -6,7 +6,7 @@ from sched import scheduler
 from bs4 import BeautifulSoup as b
 
 URL = 'https://www.tori.fi/uusimaa?q=&cg=0&w=109&st=g&ca=18&l=0&md=th'
-API_KEY = '5679270918:AAGCFWgdMVWwICeNcAk8AZyXJTmMuL2QZWc'
+API_KEY = '##########'
 
 bot = telebot.TeleBot(API_KEY)
 @bot.message_handler(commands=['start'])
